@@ -11,6 +11,8 @@ void main() {
   ));
 }
 
+//Test Commit
+
 class MyclcApp extends StatefulWidget {
   @override
   State<MyclcApp> createState() => _MyclcAppState();
@@ -34,7 +36,7 @@ class _MyclcAppState extends State<MyclcApp> {
       history = ' ';
     } else if (onSelect == '.') {
       for (int j = 0 ; j < displayOutput.length ; j++){
-        
+
       }
     } else if (onSelect == '<') {
       intermediate = displayOutput.substring(0, displayOutput.length - 1);
